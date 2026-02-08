@@ -10,7 +10,7 @@ import shap
 import matplotlib.pyplot as plt
 from src.models.shap_explainer import get_shap_values
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://real-estate-fastapi.onrender.com/predict"
 COLUMNS_PATH = "artifacts/models/columns.json"
 
 
